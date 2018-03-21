@@ -1,8 +1,4 @@
-zuul:
-  routes:
-    api-a:
-      path: /api-a/**
-      serviceId: eureka-client
-    api-b:
-      path: /api-b/**
-      serviceId: eureka-client
+info:
+  app:
+    name: 一个消费者
+    version: 0.0.1
